@@ -91,3 +91,70 @@
 
     }
 }
+
+@media only screen and (max-width: 1440px) {
+    
+    body{
+        background-color: hsl(233, 47%, 7%);
+        
+    }
+
+    #container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #img-container{
+
+    }
+
+    #img-container> img{
+
+       height: 200px;
+       width: 200px;
+        
+        
+        
+    }
+
+    #card-container{
+        
+
+    }
+
+    #main-txt{
+       
+    }
+
+    #insights{
+       
+    }
+    
+    #txt{
+        text-align: center;
+        color: hsla(0, 0%, 100%, 0.75);
+
+    }
+
+    #statistics{
+       
+        text-align: center;
+    }
+
+    .num-stats{
+        
+
+    }
+
+    .word-stats{
+        
+    }
+
+    .mobile-br{
+        display: none;
+    }
+
+
+}
