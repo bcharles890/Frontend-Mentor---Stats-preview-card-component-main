@@ -116,9 +116,11 @@
     #img-container{
         display: flex;
         justify-content: center;
-        background-color: hsla(277, 64%, 61%, .6);
-        z-index: 1;
+        background-color: hsl(277, 64%, 61%);
+        z-index: -1;
         border-radius: 0px 5px 5px 0px;
+        height: 380px;
+        width: 350px;
 
     }
 
@@ -126,9 +128,11 @@
 
        height: 380px;
        width: 350px;
-       background-color: hsl(277, 64%, 61%);
+       background-color: hsl(277, 64%, 61%,);
        border-radius: 0px 5px 5px 0px;
-       z-index: -1;
+       z-index: 1;
+       opacity: .6;
+       
         
         
         
